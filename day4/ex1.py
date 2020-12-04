@@ -21,10 +21,10 @@ valid_passsports = 0
 for line in batch_file:
     if(all(valid_fields in line for valid_fields in ('eyr', 'hgt', 'byr', 'iyr', 'pid','hcl', 'ecl',))):
         valid_passsports+=1
-        print("------Valid-Passport------")
-        print(line)
-    else:
-        print("------Invalid-Passport------")
-        print(line)
+        # print("------Valid-Passport------")
+        # print(line)
+    # else:
+    #     print("------Invalid-Passport------")
+    #     print(line)
 
 print("Total Valid Passports =", valid_passsports)
