@@ -27,4 +27,4 @@ for line in batch_file:
     #     print("------Invalid-Passport------")
     #     print(line)
 
-print("Total Valid Passports =", valid_passsports)
+print("Total Valid Passports =", valid_passsports) 
